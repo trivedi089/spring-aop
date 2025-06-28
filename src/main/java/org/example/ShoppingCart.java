@@ -1,0 +1,17 @@
+package org.example;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ShoppingCart {
+
+    public void checkout(){
+
+        //logging
+        //Authentication
+        //Authorisation
+        //Sanitize the data
+        System.out.println("Checkout method from shopping cart called");
+
+
+    }
+}
